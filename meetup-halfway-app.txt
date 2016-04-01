@@ -1,0 +1,37 @@
+https://api.foursquare.com/v2/venues/search?client_id=N15A0OWLPHTZ0OAO3JBEOANFSACASLXN11VCHUZPYT4WPORZ&client_secret=SDDBNJPXKEESADP5KYTTPA1YXFYRGNGRGX5YJAGRCKFVTN1A&v=20130815&ll=51.549147,-0.092844&query=sushi
+
+postcode actions:
+UPDATE POSTCODE
+CONNECT POSTCODES
+
+midpoint actions:
+UPDATE MIDPOINT
+FETCH MIDPOINT DATA
+ADD LISTING
+
+listing actions:
+DISPLAY LISTINGS
+FIND LISTINGS
+FIND MIDPOINT
+REFRESH LISTINGS
+
+First postcode go->
+Second postcode go->
+What would you like to consume?->
+
+calculating…
+
+results
+
+should it be done with routing?
+
+first route: first postcode
+enter first postcode 
+-> go to route for second postcode
+enter second postcode 
+-> go to route to enter food
+enter food query 
+-> go to route to find and display results
+display results
+
+this.props.params will give you the param given by the route…
